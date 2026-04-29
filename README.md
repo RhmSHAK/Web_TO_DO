@@ -1,16 +1,76 @@
-# React + Vite
+📝 To-Do Task Manager (Multi User)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+       A simple full-stack To-Do application where users can register/login and manage their personal tasks securely. 
+       Each user can only see and manage their own tasks.
 
-Currently, two official plugins are available:
+🚀 Features
+      🔐 User Authentication (Firebase)
+      👤 Google Login Support
+      ➕ Add new tasks
+      ✏️ Edit / Update tasks
+      🗑 Delete tasks
+     🔒 User-specific task isolation (each user sees only their tasks)
+     🌐 REST API with Express + MongoDB
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🛠️ Tech Stack
+      Frontend:
+      React.js
+      React Router
+      Tailwind CSS
+      React Icons
+      Firebase Authentication
+      Backend:
+      Node.js
+      Express.js
+      MongoDB
 
-## React Compiler
+📁 Project Structure
+project-root/
+│
+├── client/ (React Frontend)
+│   ├── src/
+│   │   ├── component/
+│   │   │   ├── Home/
+│   │   │   ├── TaskList/
+|   |   |   ├── LogIn/
+|   |   |   ├── Register/
+|   |   |   ├── Navbar/
+│   │   ├── contexts/
+│   │   ├── firebase/
+|   |   ├── layout/
+│   │   └── main.jsx
+│
+├── server/ (Backend API)
+│   ├── transactionRouter.js
+│   └── index.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚙️ Setup Instructions
 
-## Expanding the ESLint configuration
+1️⃣ Clone the project
+          git clone url
+          cd File_Name
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2️⃣ Backend Setup
+         cd server
+         npm install
+         
+🔥 Create .env file (optional if needed)
+         MONGO_URI=your_mongodb_connection_string
+         PORT=3000
+         
+▶️ Run backend
+        nodemon index.js
+        
+3️⃣ Frontend Setup
+         cd client
+         npm install
+         
+🔥 Firebase Setup
+         Go to Firebase Console
+         Create project
+         Enable Authentication (Email + Google)
+         Copy config and add in:
+         src/firebase/firebase.init.js
+         
+▶️ Run frontend
+         npm run dev
