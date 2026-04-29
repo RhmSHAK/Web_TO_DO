@@ -5,7 +5,10 @@ Each user can only see and manage their own tasks.
 
 ---
 
-## 🚀 Features<img width="1843" height="959" alt="Screenshot 2026-04-29 190840" src="https://github.com/user-attachments/assets/d1055404-cb05-40b8-b814-9001fa8c7c44" />
+## 🚀 Features<img width="1628" height="527" alt="Screenshot 2026-04-29 191401" src="https://github.com/user-attachments/assets/06ffc33c-5033-4764-a00e-9823fd8cf7f9" />
+<img width="1704" height="541" alt="Screenshot 2026-04-29 191458" src="https://github.com/user-attachments/assets/6ad15c77-6c0e-42c6-8cda-20725cea8f2d" />
+<img width="1843" height="959" alt="Screenshot 2026-04-29 190840" src="https://github.com/user-attachments/assets/6a3b59da-8e47-4400-8563-ccf9ce16dacf" />
+
 
 
 - 🔐 User Authentication (Firebase)
