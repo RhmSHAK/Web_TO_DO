@@ -5,7 +5,8 @@ Each user can only see and manage their own tasks.
 
 ---
 
-## 🚀 Features
+## 🚀 Features<img width="1843" height="959" alt="Screenshot 2026-04-29 190840" src="https://github.com/user-attachments/assets/d1055404-cb05-40b8-b814-9001fa8c7c44" />
+
 
 - 🔐 User Authentication (Firebase)
 - 👤 Google Login Support
