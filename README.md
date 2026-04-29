@@ -35,8 +35,6 @@ Each user can only see and manage their own tasks.
 - Express.js
 - MongoDB
 
----
-
 ## 📁 Project Structure
 
 project-root/
