@@ -35,6 +35,30 @@ Each user can only see and manage their own tasks.
 - Express.js
 - MongoDB
 
+## 📁 Project Structure
+
+project-root/
+│
+├── client/               
+│   ├── public/            
+│   ├── src/
+│   │   ├── component/     
+│   │   │   ├── Home/   
+│   │   │   ├── TaskList/  
+│   │   │   ├── LogIn/     
+│   │   │   ├── Register/  
+│   │   │   └── Navbar/    
+│   │   ├── contexts/     
+│   │   ├── firebase/     
+│   │   ├── layout/       
+│   │   ├── App.jsx        
+│   │   └── main.jsx       
+│   └── package.json
+│
+└── server/               
+    ├── transactionRouter.js 
+    ├── index.js          
+    └── package.json
 
 ## ⚙️ Setup Instructions
 
