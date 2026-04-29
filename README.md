@@ -40,23 +40,23 @@ Each user can only see and manage their own tasks.
 ## 📁 Project Structure
 
 project-root/
-├── client/
-│   └── src/
-│       ├── component/
-│       │   ├── Home/
-│       │   ├── TaskList/
-│       │   ├── LogIn/
-│       │   ├── Register/
-│       │   └── Navbar/
-│       ├── contexts/
-│       ├── firebase/
-│       ├── layout/
-│       └── main.jsx
 │
-└── server/
-    ├── transactionRouter.js
-    └── index.js
-
+├── client/ # React Frontend
+│ ├── src/
+│ │ ├── component/
+│ │ │ ├── Home/
+│ │ │ ├── TaskList/
+│ │ │ ├── LogIn/
+│ │ │ ├── Register/
+│ │ │ └── Navbar/
+│ │ ├── contexts/
+│ │ ├── firebase/
+│ │ ├── layout/
+│ │ └── main.jsx
+│
+└── server/ # Backend API
+├── transactionRouter.js
+└── index.js
 
 ## ⚙️ Setup Instructions
 
