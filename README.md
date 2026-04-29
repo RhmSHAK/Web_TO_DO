@@ -36,23 +36,22 @@ Each user can only see and manage their own tasks.
 ## 📁 Project Structure
 
 project-root/
+├── client/
+│   └── src/
+│       ├── component/
+│       │   ├── Home/
+│       │   ├── TaskList/
+│       │   ├── LogIn/
+│       │   ├── Register/
+│       │   └── Navbar/
+│       ├── contexts/
+│       ├── firebase/
+│       ├── layout/
+│       └── main.jsx
 │
-├── client/ (React Frontend)
-│ ├── src/
-│ │ ├── component/
-│ │ │ ├── Home/
-│ │ │ ├── TaskList/
-│ │ │ ├── LogIn/
-│ │ │ ├── Register/
-│ │ │ ├── Navbar/
-│ │ ├── contexts/
-│ │ ├── firebase/
-│ │ ├── layout/
-│ │ └── main.jsx
-│
-├── server/ (Backend API)
-│ ├── transactionRouter.js
-│ └── index.js
+└── server/
+    ├── transactionRouter.js
+    └── index.js
 
 
 ## ⚙️ Setup Instructions
@@ -62,27 +61,35 @@ project-root/
 git clone <your-repo-url>
 cd project-root
 
-2️⃣ Backend Setup
-         cd server
-         npm install
+### 2️⃣ Backend Setup
+
+       cd server
+       npm instal
+       
+### 🔥 Create `.env` file (optional if needed)
+
+       MONGO_URI=your_mongodb_connection_string
+       PORT=3000
          
-🔥 Create .env file (optional if needed)
-         MONGO_URI=your_mongodb_connection_string
-         PORT=3000
-         
-▶️ Run backend
-        nodemon index.js
+### ▶️ Run Backend
+
+       nodemon index.js
         
-3️⃣ Frontend Setup
-         cd client
-         npm install
+### 3️⃣ Frontend Setup
+
+       cd client
+       npm install
          
-🔥 Firebase Setup
-         Go to Firebase Console
-         Create project
-         Enable Authentication (Email + Google)
-         Copy config and add in:
-         src/firebase/firebase.init.js
+### 🔥 Firebase Setup
+
+      - Go to Firebase Console  
+      - Create a project  
+      - Enable Authentication (Email + Google)  
+      - Copy Firebase config  
+
+       Add config in:
+           src/firebase/firebase.init.js
          
-▶️ Run frontend
-         npm run dev
+### ▶️ Run Frontend
+
+      npm run dev
