@@ -1,54 +1,66 @@
-📝 To-Do Task Manager (Multi User)
+# 📝 To-Do Task Manager (Multi User)
 
-       A simple full-stack To-Do application where users can register/login and manage their personal tasks securely. 
-       Each user can only see and manage their own tasks.
+A full-stack To-Do application where users can register/login and manage their personal tasks securely.  
+Each user can only see and manage their own tasks.
 
-🚀 Features
-      🔐 User Authentication (Firebase)
-      👤 Google Login Support
-      ➕ Add new tasks
-      ✏️ Edit / Update tasks
-      🗑 Delete tasks
-     🔒 User-specific task isolation (each user sees only their tasks)
-     🌐 REST API with Express + MongoDB
+---
 
-🛠️ Tech Stack
-      Frontend:
-      React.js
-      React Router
-      Tailwind CSS
-      React Icons
-      Firebase Authentication
-      Backend:
-      Node.js
-      Express.js
-      MongoDB
+## 🚀 Features
 
-📁 Project Structure
+- 🔐 User Authentication (Firebase)
+- 👤 Google Login Support
+- ➕ Add new tasks
+- ✏️ Edit / Update tasks
+- 🗑 Delete tasks
+- 🔒 User-specific task isolation (each user sees only their tasks)
+- 🌐 REST API with Express + MongoDB
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- React Router
+- Tailwind CSS
+- React Icons
+- Firebase Authentication
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+
+---
+
+## 📁 Project Structure
+
 project-root/
 │
 ├── client/ (React Frontend)
-│   ├── src/
-│   │   ├── component/
-│   │   │   ├── Home/
-│   │   │   ├── TaskList/
-|   |   |   ├── LogIn/
-|   |   |   ├── Register/
-|   |   |   ├── Navbar/
-│   │   ├── contexts/
-│   │   ├── firebase/
-|   |   ├── layout/
-│   │   └── main.jsx
+│ ├── src/
+│ │ ├── component/
+│ │ │ ├── Home/
+│ │ │ ├── TaskList/
+│ │ │ ├── LogIn/
+│ │ │ ├── Register/
+│ │ │ ├── Navbar/
+│ │ ├── contexts/
+│ │ ├── firebase/
+│ │ ├── layout/
+│ │ └── main.jsx
 │
 ├── server/ (Backend API)
-│   ├── transactionRouter.js
-│   └── index.js
+│ ├── transactionRouter.js
+│ └── index.js
 
-⚙️ Setup Instructions
 
-1️⃣ Clone the project
-          git clone url
-          cd File_Name
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the project
+
+git clone <your-repo-url>
+cd project-root
 
 2️⃣ Backend Setup
          cd server
